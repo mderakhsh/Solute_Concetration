@@ -13,3 +13,4 @@ print "\n"
 print "\nNumber of molecules =", N
 print "\nBox size =", X, "^ 3 (nm)^3"
 print "\nMolar concentration =", C, "M"
+print "\nMolar concentration = %.2f" % (C*1000), "mM"
